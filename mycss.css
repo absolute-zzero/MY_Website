@@ -1,0 +1,34 @@
+#p1
+{
+  text-align: center;
+}
+#arrowLink:hover
+{
+
+}
+#projectMain_title
+{
+  background-color: #f4623a;
+}
+#portfolio
+{
+  background-color: grey;
+  font-weight: bold;
+  background: url(bg-projects.jpg);
+}
+#descriptSect
+{
+  background: url(bg-projects.jpg);
+
+}
+#description
+{
+  color: black;
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+footer
+{
+  background-color: #343a40;
+  color: white;
+}
