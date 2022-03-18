@@ -2,13 +2,68 @@
 {
   text-align: center;
 }
-#arrowLink:hover
+
+#my_project
 {
+  display: inline-flex;
+  animation-name: drop;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+
+@keyframes drop {
+  0% {visibility: hidden; transform: translateY(-100px);}
+  35% {visibility: visible; transform: translateY(20px);}
+  50% {visibility: visible; transform: translateY(-15px);}
+  65% {visibility: visible; transform: translateY(10px);}
+  80% {visibility: visible; transform: translateY(-10px);}
+  100%{visibility: visible; transform: translateY(0px);}
 
 }
-#projectMain_title
+
+#arrowLink
+{
+  display: inline-flex;
+  animation-name: point_drop;
+  animation-duration: 2s;
+  animation-delay: 2s;
+}
+
+@keyframes point_drop {
+  0% {visibility: hidden; transform: translateY(-50px);}
+  35% {visibility: visible; transform: translateY(30px);}
+  50% {visibility: visible; transform: translateY(-15px);}
+  65% {visibility: visible; transform: translateY(10px);}
+  80% {visibility: visible; transform: translateY(-10px);}
+  100%{visibility: visible; transform: translateY(0px);}
+
+}
+
+
+#web_projects
 {
   background-color: #f4623a;
+  color: white;
+}
+#python_projects
+{
+  background-color: #f4623a;
+  color: white;
+}
+#model3D_projects
+{
+  background-color: #f4623a;
+  color: white;
+}
+#c_projects
+{
+  background-color: #f4623a;
+  color: white;
+}
+.project-header
+{
+  background-color: #f4623a;
+  color: white;
 }
 #portfolio
 {
